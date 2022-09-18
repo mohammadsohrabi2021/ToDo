@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    margin-top: 30px;
+}
+.parentForm{
+    background-color: #fff;
+    box-shadow: 5px 5px 10px rgb(136, 136, 136);
+    width: 50%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.form{
+    display: flex;
+
+}
+.form input{
+    margin: 0 20px;
+    padding: 10px 5px;
+    width: 380px;
+    border: 1px solid lightgray;
+    outline: 0;
+    box-sizing: 5px;
+}
+.form button{
+    border: 0;
+    background-color: blueviolet;
+    padding: 0 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form img{
+    width: 20px;
+    
+}
